@@ -1,9 +1,13 @@
 # Change Log
 
-All notable changes to the "frontend-debugger" extension will be documented in this file.
+## 0.0.1
+- Create plugin.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 0.0.2
+- Create plugin .
 
-## [Unreleased]
+## 0.0.3
+- Update readme.
 
-- Initial release
+## 0.0.4
+- Update readme and create changelog.
