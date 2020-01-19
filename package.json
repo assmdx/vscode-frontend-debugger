@@ -1,0 +1,51 @@
+{
+	"name": "frontend-debugger",
+	"publisher": "assmdx",
+	"icon":"./logo.png",
+	"repository":"https://github.com/assmdx/vscode-frontend-debugger",
+	"displayName": "frontend-debugger",
+	"description": "frontend-debugger help you debug without console.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.40.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.frontend-debugger"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.frontend-debugger",
+				"title": "frontend-debugger"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.frontend-debugger",
+				"key": "ctrl+0",
+				"mac": "cmd+0"
+			}
+		]
+	},
+	"scripts": {
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.7",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.40.0",
+		"eslint": "^6.6.0",
+		"glob": "^7.1.5",
+		"mocha": "^6.2.2",
+		"typescript": "^3.6.4",
+		"vscode-test": "^1.2.2"
+	},
+	"dependencies": {
+		"uglify-js": "^3.7.5"
+	}
+}
