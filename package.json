@@ -1,11 +1,11 @@
 {
 	"name": "frontend-debugger",
 	"publisher": "assmdx",
-	"icon":"./logo.png",
+	"icon":"logo.png",
 	"repository":"https://github.com/assmdx/vscode-frontend-debugger",
 	"displayName": "frontend-debugger",
 	"description": "frontend-debugger help you debug without console.",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.40.0"
 	},
